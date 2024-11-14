@@ -32,7 +32,6 @@ psql study-sync < sql/schema.sql -h localhost -U postgres
 
 ```sh
 psql study-sync < sql/seed.sql -h localhost -U postgres
-
 ```
 
 ## Install EB CLI
@@ -51,11 +50,12 @@ Success!
        echo 'export PATH="/Users/ishumadan/.ebcli-virtual-env/executables:$PATH"' >> ~/.zshenv && source ~/.zshenv
 
 ## EB Init
-```
-eb init
 ```sh
+eb init
+```
 
 ## Setup code commit
-```
-eb codesource
+
 ```sh
+eb codesource
+```
