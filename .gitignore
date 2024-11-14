@@ -1,0 +1,4 @@
+node_modules/
+flaskapp/
+aws-elastic-beanstalk-cli-setup/
+package-lock.json
