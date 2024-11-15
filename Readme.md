@@ -59,3 +59,10 @@ eb init
 ```sh
 eb codesource
 ```
+
+## Make config Var for EB Extensions
+
+```sh
+mkdir .ebextensions
+touch .ebextensions/001_envar.config
+```
